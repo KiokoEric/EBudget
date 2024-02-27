@@ -126,7 +126,6 @@ const Savings = () => {
     useEffect(()=> {
         const TotalSavings = CalculateSavings();
         setSavings(TotalSavings)
-        AddSaving(TotalSavings) 
     },[Transactions])
 
 return (
