@@ -8,7 +8,7 @@ import { Chart, ArcElement } from "chart.js";
 
 Chart.register(ArcElement)
 
-const ChartImage = () => {
+const ChartImage = () => { 
 
     const [Cookie, setCookie] = useCookies(["auth_token"]);
     const userID = useGetUserID();
