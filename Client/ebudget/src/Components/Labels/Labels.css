@@ -1,0 +1,43 @@
+.Labels {
+    color: black;
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+}
+.Labels article:last-child {
+    color: black;
+    display: flex;
+    flex-direction: column;
+    z-index: 5;
+}
+.Labels article section { 
+    display: flex;
+    flex-direction: row;
+    column-gap: 1rem;
+}
+.Labels article h3 {
+    font-size: 22px;
+    margin-bottom: 0.8rem;
+    margin-top: 0.5rem;
+}
+.Labels article p {
+    font-size: 18px;
+    margin-bottom: 0.5rem;
+}
+.Indicator {
+    content: "";
+    background-color: blue;
+    border-radius: 5px;
+    height: 15px;
+    margin-top: 0.35rem;
+    width: 10px;
+}
+.Red {
+    background-color:rgb(255, 99, 132);
+}
+.Blue {
+    background-color:rgb(54, 162, 235);
+}
+.Yellow {
+    background-color:rgb(255, 205, 86); 
+}

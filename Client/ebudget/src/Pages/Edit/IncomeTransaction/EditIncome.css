@@ -1,0 +1,109 @@
+.Edit {
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 2px 2px 20px green;
+    display: flex;
+    flex-direction: column;
+    row-gap: 1.2rem;
+    font-family: 'Instrument Serif', serif; 
+    height: 97vh;
+    margin-top: 1rem;
+    padding: 1.5rem 2.5rem;
+    width: 1175px;
+}
+.Edit section:first-child h1 {
+    font-size: 45px;
+    margin-bottom: 2.5rem;
+    text-align: center;
+}
+.Edit section:last-child {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    width: 1150px;
+}
+.Edit section:last-child form {
+    background-color: #216d44;
+    border-radius: 5px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 0.5rem;
+    font-size: 18px;
+    margin: auto;
+    padding: 1.5rem 0rem;
+    width: 450px;
+}
+.Edit section:last-child form div {
+    display: flex;
+    flex-direction: column;
+    row-gap: 0.5rem;
+}
+.Edit section:last-child form p {
+    height: 40px;
+    width: 400px;
+}
+.Edit section:last-child form p span {
+    color: red;
+    padding-top: 1rem;
+}
+.Edit section:last-child form input {
+    border: 2px solid black;
+    border-radius: 3px;
+    font-size: 18px;
+    height: 40px;
+    outline: 0;
+    width: 400px;
+}
+.Edit section:last-child form input[type="text"] {
+    font-family: 'Instrument Serif', serif;
+    font-size: 18px;
+    padding-left: 0.5rem;
+}
+.Edit section:last-child form input[type="number"] {
+    font-family: 'Instrument Serif', serif;
+    font-size: 18px;
+    padding-left: 0.5rem;
+}
+.Edit section:last-child form input[type="date"] {
+    font-family: 'Instrument Serif', serif;
+    font-size: 18px;
+    padding-left: 0.5rem;
+    text-transform:uppercase;
+}
+.Edit section:last-child form textarea {
+    border: 2px solid black;
+    border-radius: 3px;
+    height: 100px;
+    outline: 0;
+    width: 400px;
+}
+.Edit section:last-child form textarea[type="text"] {
+    font-family: 'Instrument Serif', serif;
+    font-size: 18px;
+    padding-top: 0.4rem;
+    padding-left: 0.5rem;
+}
+.Edit section:last-child form button {
+    background-color: black;
+    border: none;
+    border-radius: 3px;
+    color: white;
+    cursor: pointer;
+    font-family: 'Instrument Serif', serif;
+    font-size: 18px;
+    margin-top: 1.5rem;
+    padding: 0.5rem 0.8rem;
+    width: 300px;
+}
+#EditIcon {
+    background-color: black;
+    border-radius: 50%;
+    color: white;
+    font-size: 60px;
+    margin-top: -4.5rem;
+    padding: 2rem 2rem;
+}

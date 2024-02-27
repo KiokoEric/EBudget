@@ -1,0 +1,143 @@
+.Dashboard {
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 2px 2px 20px green;
+    color: var(--Text-Color);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 1.2rem;
+    font-family: 'Instrument Serif', serif;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    padding: 1rem 2.5rem;
+    width: 1175px;
+}
+.Dashboard section:first-child { 
+    display: flex;
+    flex-direction: row;
+    column-gap: 0.5rem;
+}
+.Dashboard section:first-child div {
+    border-radius: 4px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    row-gap: 1rem;
+    height: 100px;
+    width: 285px;
+}
+.Display div {
+    background-color: #18415c;
+}
+.Dashboard section:first-child div h1 {
+    font-size: 35px;
+}
+.Dashboard section:first-child div h2 {
+    font-size: 30px;
+    letter-spacing: 1px;
+}
+.Dashboard div {
+    display: grid;
+    flex-direction: grid;
+    grid-template-columns: 400px 700px;
+    column-gap: 2rem;
+}
+.ChartImage div:first-child h2 {
+    color: #18415c;
+    font-size: 32px;
+    margin-top: 2rem;
+    text-align: center;
+    width: 400px;
+}
+.ChartImage figure {
+    background-color: #FFD3A3;
+    border-radius: 5px;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    height: 480px;
+    margin-top: 3rem;
+    margin-left: 2.5rem;
+    padding: 1rem 2rem 0.5rem 2rem;
+    width: 350px;
+}
+.History {
+    color: white;
+    display: flex;
+    flex-direction: column; 
+    row-gap: 1rem;
+    margin-top: 1rem;
+}
+.History h2 {
+    color: #18415c;
+    font-size: 32px;
+    text-align: center;
+}
+.History article {
+    height: 200px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+.History h3 {
+    color: #18415c;
+    font-size: 26px;
+    text-align: center;
+}
+::-webkit-scrollbar {
+    width: 0.8rem;
+}
+::-webkit-scrollbar-thumb {
+    background-color: grey;
+}
+::-webkit-scrollbar-track {
+    background-color: white;
+}
+.History li {
+    background-color: #216d44;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    column-gap: 0.5rem;
+    align-items: center;
+    list-style-type: none;
+    margin-bottom: 0.8rem;
+    padding: 0.5rem 1.5rem;
+    width: 700px;
+}
+#Bill {
+    font-size: 30px;
+}
+.History li div {
+    display: flex;
+    flex-direction: column;
+    row-gap: 1.5rem;
+    width: 650px;
+}
+.History li div h3 {
+    color: white;
+    font-size: 22px;
+    font-weight: normal;
+}
+.Dashboard li div section:last-child {
+    display: flex;
+    flex-direction: row;
+    column-gap: 1.5rem;
+}
+.History li p {
+    border: none;
+    color: white;
+    font-family: 'Instrument Serif', serif;
+    font-size: 20px;
+    margin-top: -0.5rem;
+    outline: 0;
+}
+.History li p i {
+    margin-right: 0.45rem;
+}
+#Details {
+    text-align: center;
+    width: 150px;
+}
