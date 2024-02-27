@@ -70,7 +70,7 @@ const ChartImage = () => {
             ],
             hoverOffset: 4,
             borderRadius: 5, 
-            spacing: 10,
+            spacing: 0,
         }]},
     
         options: {
