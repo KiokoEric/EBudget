@@ -67,7 +67,7 @@ return (
                     Expenses
                 </Link>
                 <Link to="/Savings" className='Link' >
-                    <i class="fa-solid fa-piggy-bank"></i>
+                    <i class="fa-solid fa-piggy-bank"></i> 
                     Savings & Investments
                 </Link>
                 <Link to="/Loan_Calculator" className='Link' >

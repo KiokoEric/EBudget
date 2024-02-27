@@ -4,11 +4,9 @@ import Axios from "axios";
 import { Link  } from 'react-router-dom';
 import { useGetUserID } from "../../Components/Hooks/UseGetUserID";
 import { useCookies } from "react-cookie";
-import { useAppContext }  from '../../Components/Context/AppContext';
 
 const Savings = () => {
 
-    const { AddSaving, AddTransaction } = useAppContext()
     const [Cookie, setCookie] = useCookies(["auth_token"]);
 
     const userID = useGetUserID();
