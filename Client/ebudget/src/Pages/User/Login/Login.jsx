@@ -40,6 +40,7 @@ const Login = () => {
                 window.localStorage.setItem("UserID", response.data.UserID)
                 setError("")
                 setSucces("Logged in successfully!") 
+                window.location.reload();
         } catch (error) { 
             setSucces("")
             setError("Login unsuccessful!")
@@ -59,6 +60,7 @@ const Login = () => {
                 window.localStorage.setItem("UserID", response.data.UserID)
                 setError("")
                 setSucces("Logged in successfully!") 
+                window.location.reload();
         } catch (error) { 
             setSucces("")
             setError("Login unsuccessful!") 
